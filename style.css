@@ -1,0 +1,28 @@
+header {
+    background-color: #1f2937;
+    padding-top: 1em;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: .25em;
+}
+
+.nav-container {
+    display: flex;
+    padding: .5em;
+    justify-content: space-between;
+}
+
+.nav-item a{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: .5em;
+}
