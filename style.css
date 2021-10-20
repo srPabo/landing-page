@@ -1,11 +1,25 @@
-header {
-    background-color: #1f2937;
-    padding-top: 1em;
+body {
+    margin: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1f2937; 
     padding-left: 5rem;
     padding-right: 5rem;
+    padding-bottom: 3rem;
+}
+
+.navbar {
+    padding-top: 1em;
     padding-bottom: 1em;
+    margin-bottom: 2em;
     display: flex;
     justify-content: space-between;
+
 }
 
 .nav-logo {
@@ -25,4 +39,43 @@ header {
     font-size: 18px;
     color: #e5e7eb;
     margin: .5em;
+}
+
+.hero {
+    display: flex;
+    margin: 2em;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-left .button {
+    background-color: #3882f6;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hero-left .button a {
+    color: #f9faf8;
+}
+
+.hero-right {
+    background-color: grey;
+    color: e5e7eb;
+    flex: 1;
 }
