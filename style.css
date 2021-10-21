@@ -140,3 +140,60 @@ a:link {
     margin-top: 0px;
     margin-right: 1em;
 }
+
+.section-4 {
+
+}
+
+.cta-box {
+    background-color: #3882f6;
+    width: 50em;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+.cta-container {
+    display: flex;
+    margin: 5em;
+    justify-content: space-between;
+}
+
+.cta-text {
+    color:#f9faf8;
+    font-size: 18px;
+}
+
+
+.cta-subtext {
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+.cta-item-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-item-right .button {
+    background-color: #3882f6;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #f9faf8;
+    border-width: 2px;
+}
+
+.cta-item-right .button a {
+    color: #f9faf8;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 2em;
+    color: #f9faf8;
+}
